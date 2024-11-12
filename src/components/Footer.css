@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #000;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
